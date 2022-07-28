@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Id>8c8db795-d31e-4a99-ad12-6f8b59bbe473</Id>
+	<Name>ProgressBarBySteps</Name>
+	<Description>Progress bar with steps</Description>
+	<ObjClass>ProgressBarBySteps</ObjClass>
+	<Version>1.0.0</Version>
+	<RuntimeRender>ProgressBarByStepsRender.js</RuntimeRender>
+	<GxResources />
+	<PropertiesDefinition>ProgressBarByStepsProperties.xml</PropertiesDefinition>
+	<DesignRender>ProgressBarByStepsRender.xsl</DesignRender>
+	<ToolboxIcon>ProgressBarBySteps.ico</ToolboxIcon>
+	<ShowMethod>show</ShowMethod>
+	<ResizeSupported>false</ResizeSupported>
+	<DataSourceAllowed>None</DataSourceAllowed>
+	<CustomDataSources />
+	<AutoGrowSupported>false</AutoGrowSupported>
+	<IncludeInControlInfo>false</IncludeInControlInfo>
+	<SupportFiles />
+	<iOS_SupportFiles />
+	<Android_SupportFiles />
+	<BB_SupportFiles />
+	<Platforms>
+		<Platform>Web</Platform>
+		<Platform>WebLayout</Platform>
+	</Platforms>
+	<ReferencedFiles />
+	<iOS_ReferencedFiles />
+	<Android_ReferencedFiles />
+	<BB_ReferencedFiles />
+	<Constructor>
+		<Parameters />
+		<Name>ProgressBarBySteps</Name>
+	</Constructor>
+	<ControlType />
+	<Categories>
+		<Category>Extended Controls</Category>
+	</Categories>
+	<Events />
+	<Methods>
+		<Method>
+			<Name>Next</Name>
+			<Signature>Next()</Signature>
+			<Parameters />
+		</Method>
+		<Method>
+			<Name>Previous</Name>
+			<Signature>Previous()</Signature>
+			<Parameters />
+		</Method>
+	</Methods>
+	<Actions />
+	<IsPublic>true</IsPublic>
+</ControlDefinition>
